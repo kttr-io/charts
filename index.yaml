@@ -1,0 +1,21 @@
+apiVersion: v1
+entries:
+  csi-snapshot-controller:
+  - apiVersion: v2
+    appVersion: v5.0.1
+    created: "2022-04-26T18:38:35.735543818Z"
+    description: Deploys the CSI snapshot-controller
+    digest: 42062ec51e0ddd6cdbb033de30927a74689bae7e1021179c588ae7cbaa02c494
+    home: https://github.com/kubernetes-csi/external-snapshotter
+    kubeVersion: '>= 1.20.0'
+    maintainers:
+    - email: michael@kttr.io
+      name: Michael Kötter
+    name: csi-snapshot-controller
+    sources:
+    - https://github.com/kubernetes-csi/external-snapshotter
+    type: application
+    urls:
+    - https://github.com/kttr-io/charts/releases/download/csi-snapshot-controller-0.1.0/csi-snapshot-controller-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-04-26T18:38:35.735554918Z"
