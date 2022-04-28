@@ -21,7 +21,7 @@ jobs:
 
       - name: Copy README.md from master
         env: 
-          CI_COMMIT_MESSAGE: Continuous Integration Build Artifacts
+          CI_COMMIT_MESSAGE: Copy README.md from master
           CI_COMMIT_AUTHOR: Continuous Integration
         run: |
           git checkout refs/remotes/origin/master README.md
