@@ -24,6 +24,6 @@ jobs:
           CI_COMMIT_MESSAGE: Continuous Integration Build Artifacts
           CI_COMMIT_AUTHOR: Continuous Integration
         run: |
-          git checkout master README.md
+          git checkout refs/remotes/origin/master README.md
           git commit -m "${{ env.CI_COMMIT_MESSAGE }}"
           git push
